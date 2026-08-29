@@ -1,6 +1,6 @@
 """Ready-to-use demo scenarios (brief section 14), exposed via GET /api/demo/{scenario}."""
 
-from .schemas import AnalyzeRequest
+from schemas import AnalyzeRequest
 
 DEMO_SCENARIOS = {
     "cashback": AnalyzeRequest(
