@@ -12,7 +12,7 @@ can be swapped for a real model/API call without touching the risk engine (brief
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from .demo_data import DEMO_SCENARIOS
+from demo_data import DEMO_SCENARIOS
 from .mock_ai import analyze
 from .schemas import AnalyzeRequest, AnalyzeResponse
 
